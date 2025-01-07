@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width-device-width" />
+        <title>My Test Page</title>
+        <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" type="text/css" />
+        <p id="Vision">
+            At Soul Tech, we view technology as a natural expression of the human spirit and aim to use it to become one with it. We see:
+        </p>
+        
+        <!-- Testing with unordered list-->
+        <ul>
+            <li>Consciousness as fundamental</li>
+            <li>The role of technology as a means to experience life fully</li>
+            <li>The spirit within us as the guide to a better future, starting with being present</li>
+            <li>Cultivate oneness within and between us and all of the universe</li>
+        </ul>
+
+        <img id="soul-tech-logo" src="{{ url_for('static', filename='images/soultech2.jpg') }}" alt="My test image" />
+
+        <div id="sst-link">
+            <p>
+                <a href="https://github.com/sm634/STT">SoulTech Manifesto</a>
+            </p>
+        </div>
+    </body>
+
+</html>

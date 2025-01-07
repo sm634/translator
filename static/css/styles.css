@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+}
+
+body {
+    color: white;
+}
+
+ul {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid white;
+}
+
+#sst-link,
+#Vision {
+    font-size: 1.5em; /* Makes the text larger */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the text */
+    color: white
+}
+
+#soul-tech-logo {
+    width: 500px;
+    height: 600px;
+    display: block; /*change the image to a block element for centering */
+    margin: 0 auto; /* Centre the block image horizontally */
+}
