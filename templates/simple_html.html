@@ -4,7 +4,7 @@
 
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width-device-width" />
+        <meta name="viewport" content="width=device-width" />
         <title>My Test Page</title>
         <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" type="text/css" />
     </head>
@@ -30,6 +30,8 @@
                 <a href="https://github.com/sm634/STT">SoulTech Manifesto</a>
             </p>
         </div>
+        <button>Change User</button>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     </body>
 
 </html>
